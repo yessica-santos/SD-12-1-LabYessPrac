@@ -6,7 +6,7 @@
 import * as task1 from "./task1.js";
 import * as task2 from "./task2.js";
 import * as task3 from "./task3.js";
-import * as task4 from "./task4.js";
+import * as task4 from "./task4.js";0
 
 let task;
 
@@ -38,4 +38,5 @@ switch (task) {
     delUser(6);
     delUser(5);
     setTimeout(function () { fetch(getServerURL() + "/users").then(response => response.json()).then(data => console.log(data)); }, 2000);
+    break;
 }
